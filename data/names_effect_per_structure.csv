@@ -1,0 +1,801 @@
+target,model,step,structure,lower_arm,upper_arm,lower_hit,upper_hit,direction
+PXR,Boltz-2,chemistry only,pxr_1m13,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_1nrl,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_2o9i,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_2qnv,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_3hvl,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_3r8d,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_4ny9,smiles,gen,1,0,worsened
+PXR,Boltz-2,chemistry only,pxr_4s0t,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_4x1f,smiles,gen,1,0,worsened
+PXR,Boltz-2,chemistry only,pxr_4xhd,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_5a86,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_5x0r,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_6bns,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_6dup,smiles,gen,0,1,improved
+PXR,Boltz-2,chemistry only,pxr_6hj2,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_6hty,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_6nx1,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_6p2b,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_6s41,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_6tfi,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_6xp9,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_7ax9,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_7axa,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_7axb,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_7axc,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_7axd,smiles,gen,1,0,worsened
+PXR,Boltz-2,chemistry only,pxr_7axe,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_7axh,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_7n2a,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_7rio,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_7riu,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_7riv,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_7yfk,smiles,gen,1,0,worsened
+PXR,Boltz-2,chemistry only,pxr_8cf9,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8ch8,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_8e3n,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8eqz,smiles,gen,1,0,worsened
+PXR,Boltz-2,chemistry only,pxr_8f5y,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8fpe,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8svo,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8svq,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8svr,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8svs,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8svt,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8svx,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_8szv,smiles,gen,1,0,worsened
+PXR,Boltz-2,chemistry only,pxr_9beq,smiles,gen,0,0,unchanged
+PXR,Boltz-2,chemistry only,pxr_9fzi,smiles,gen,1,1,unchanged
+PXR,Boltz-2,chemistry only,pxr_9fzj,smiles,gen,1,0,worsened
+PXR,Boltz-2,names on top of chemistry,pxr_1m13,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_1nrl,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_2o9i,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_2qnv,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_3hvl,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_3r8d,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_4ny9,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_4s0t,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_4x1f,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_4xhd,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_5a86,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_5x0r,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_6bns,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_6dup,gen,ccd,1,0,worsened
+PXR,Boltz-2,names on top of chemistry,pxr_6hj2,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_6hty,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_6nx1,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_6p2b,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_6s41,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_6tfi,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_6xp9,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7ax9,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_7axa,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_7axb,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7axc,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7axd,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_7axe,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7axh,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7n2a,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7rio,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7riu,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7riv,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_7yfk,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8cf9,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8ch8,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8e3n,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_8eqz,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_8f5y,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8fpe,gen,ccd,0,1,improved
+PXR,Boltz-2,names on top of chemistry,pxr_8svo,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8svq,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8svr,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8svs,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8svt,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8svx,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_8szv,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_9beq,gen,ccd,0,0,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_9fzi,gen,ccd,1,1,unchanged
+PXR,Boltz-2,names on top of chemistry,pxr_9fzj,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_1w0f,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_1w0g,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_2j0d,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_3nxu,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_3tjs,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_3ua1,smiles,gen,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4d6z,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4d75,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4d78,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4d7d,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4i4g,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4i4h,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4k9v,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4k9w,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4k9x,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_4ny4,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_5a1p,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_5a1r,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_5te8,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_5vc0,smiles,gen,1,0,worsened
+CYP3A4,Boltz-2,chemistry only,cyp3a4_5vce,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_5vcg,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bcz,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bd5,smiles,gen,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bd6,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bd7,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bd8,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bdh,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bdi,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bdk,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6bdm,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6da2,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6da3,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6da5,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6da8,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6daa,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6dab,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6dac,smiles,gen,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6dag,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6daj,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6dal,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6ma6,smiles,gen,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6ma7,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6ma8,smiles,gen,1,0,worsened
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6oo9,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6ooa,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6oob,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6une,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6ung,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6unh,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6uni,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6unj,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6unk,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6unl,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_6unm,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvh,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvi,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvj,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvk,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvm,smiles,gen,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvn,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvo,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvp,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvq,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7kvs,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7lxl,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7uf9,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7ufa,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7ufb,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7ufc,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7ufd,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7ufe,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_7uff,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_8dyc,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_8spd,smiles,gen,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9bbb,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9cor,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9cos,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9cot,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9cou,smiles,gen,1,1,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9cov,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9cow,smiles,gen,0,1,improved
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9cox,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9coy,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,chemistry only,cyp3a4_9plj,smiles,gen,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_1w0f,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_1w0g,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_2j0d,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_3nxu,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_3tjs,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_3ua1,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4d6z,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4d75,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4d78,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4d7d,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4i4g,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4i4h,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4k9v,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4k9w,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4k9x,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_4ny4,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_5a1p,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_5a1r,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_5te8,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_5vc0,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_5vce,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_5vcg,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bcz,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bd5,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bd6,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bd7,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bd8,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bdh,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bdi,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bdk,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6bdm,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6da2,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6da3,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6da5,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6da8,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6daa,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6dab,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6dac,gen,ccd,1,0,worsened
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6dag,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6daj,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6dal,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6ma6,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6ma7,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6ma8,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6oo9,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6ooa,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6oob,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6une,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6ung,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6unh,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6uni,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6unj,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6unk,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6unl,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_6unm,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvh,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvi,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvj,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvk,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvm,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvn,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvo,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvp,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvq,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7kvs,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7lxl,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7uf9,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7ufa,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7ufb,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7ufc,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7ufd,gen,ccd,0,1,improved
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7ufe,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_7uff,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_8dyc,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_8spd,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9bbb,gen,ccd,1,0,worsened
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9cor,gen,ccd,1,0,worsened
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9cos,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9cot,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9cou,gen,ccd,1,0,worsened
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9cov,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9cow,gen,ccd,1,1,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9cox,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9coy,gen,ccd,0,0,unchanged
+CYP3A4,Boltz-2,names on top of chemistry,cyp3a4_9plj,gen,ccd,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_1m13,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_1nrl,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_2o9i,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_2qnv,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_3hvl,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_3r8d,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_4ny9,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_4s0t,smiles,gen,0,1,improved
+PXR,OF3 p2,chemistry only,pxr_4x1f,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_4xhd,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_5a86,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_5x0r,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_6bns,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_6dup,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_6hj2,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_6hty,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_6nx1,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_6p2b,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_6s41,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_6tfi,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_6xp9,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_7ax9,smiles,gen,1,0,worsened
+PXR,OF3 p2,chemistry only,pxr_7axa,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_7axb,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_7axc,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_7axd,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_7axe,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_7axh,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_7n2a,smiles,gen,0,1,improved
+PXR,OF3 p2,chemistry only,pxr_7rio,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_7riu,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_7riv,smiles,gen,1,0,worsened
+PXR,OF3 p2,chemistry only,pxr_7yfk,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8cf9,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8ch8,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_8e3n,smiles,gen,1,1,unchanged
+PXR,OF3 p2,chemistry only,pxr_8eqz,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8fpe,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8svo,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8svq,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8svr,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8svs,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8svt,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_8svx,smiles,gen,1,0,worsened
+PXR,OF3 p2,chemistry only,pxr_8szv,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_9beq,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_9fzi,smiles,gen,0,0,unchanged
+PXR,OF3 p2,chemistry only,pxr_9fzj,smiles,gen,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_1m13,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_1nrl,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_2o9i,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_2qnv,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_3hvl,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_3r8d,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_4ny9,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_4s0t,gen,ccd,1,0,worsened
+PXR,OF3 p2,names on top of chemistry,pxr_4x1f,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_4xhd,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_5a86,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_5x0r,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_6bns,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_6dup,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_6hj2,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_6hty,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_6nx1,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_6p2b,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_6s41,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_6tfi,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_6xp9,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7ax9,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7axa,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7axb,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7axc,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7axd,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7axe,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7axh,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7n2a,gen,ccd,1,0,worsened
+PXR,OF3 p2,names on top of chemistry,pxr_7rio,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7riu,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_7riv,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_7yfk,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8cf9,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8ch8,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8e3n,gen,ccd,1,1,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8eqz,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_8fpe,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8svo,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8svq,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8svr,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8svs,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8svt,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_8svx,gen,ccd,0,1,improved
+PXR,OF3 p2,names on top of chemistry,pxr_8szv,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_9beq,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_9fzi,gen,ccd,0,0,unchanged
+PXR,OF3 p2,names on top of chemistry,pxr_9fzj,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_1w0f,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_1w0g,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_2j0d,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_3nxu,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_3tjs,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_3ua1,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4d6z,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4d75,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4d78,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4d7d,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4i4g,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4i4h,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4k9v,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4k9w,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4k9x,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_4ny4,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_5a1p,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_5a1r,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_5te8,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_5vc0,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_5vce,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_5vcg,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bcz,smiles,gen,1,0,worsened
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bd5,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bd6,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bd7,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bd8,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bdh,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bdi,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bdk,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6bdm,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6da2,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6da3,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6da5,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6da8,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6daa,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6dab,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6dac,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6dag,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6daj,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6dal,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6ma6,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6ma7,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6ma8,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6oo9,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6ooa,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6oob,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6une,smiles,gen,1,0,worsened
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6ung,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6unh,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6uni,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6unj,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6unk,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6unl,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_6unm,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvh,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvi,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvj,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvk,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvm,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvn,smiles,gen,1,0,worsened
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvo,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvp,smiles,gen,1,0,worsened
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvq,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7kvs,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7lxl,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7uf9,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7ufa,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7ufb,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7ufc,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7ufd,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7ufe,smiles,gen,0,1,improved
+CYP3A4,OF3 p2,chemistry only,cyp3a4_7uff,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_8dyc,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_8spd,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9bbb,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9cor,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9cos,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9cot,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9cou,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9cov,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9cow,smiles,gen,1,1,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9cox,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9coy,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,chemistry only,cyp3a4_9plj,smiles,gen,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_1w0f,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_1w0g,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_2j0d,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_3nxu,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_3tjs,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_3ua1,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4d6z,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4d75,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4d78,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4d7d,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4i4g,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4i4h,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4k9v,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4k9w,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4k9x,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_4ny4,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_5a1p,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_5a1r,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_5te8,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_5vc0,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_5vce,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_5vcg,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bcz,gen,ccd,0,1,improved
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bd5,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bd6,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bd7,gen,ccd,0,1,improved
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bd8,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bdh,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bdi,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bdk,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6bdm,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6da2,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6da3,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6da5,gen,ccd,0,1,improved
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6da8,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6daa,gen,ccd,0,1,improved
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6dab,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6dac,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6dag,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6daj,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6dal,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6ma6,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6ma7,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6ma8,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6oo9,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6ooa,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6oob,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6une,gen,ccd,0,1,improved
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6ung,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6unh,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6uni,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6unj,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6unk,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6unl,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_6unm,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvh,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvi,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvj,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvk,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvm,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvn,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvo,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvp,gen,ccd,0,1,improved
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvq,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7kvs,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7lxl,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7uf9,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7ufa,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7ufb,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7ufc,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7ufd,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7ufe,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_7uff,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_8dyc,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_8spd,gen,ccd,1,0,worsened
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9bbb,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9cor,gen,ccd,0,1,improved
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9cos,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9cot,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9cou,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9cov,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9cow,gen,ccd,1,1,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9cox,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9coy,gen,ccd,0,0,unchanged
+CYP3A4,OF3 p2,names on top of chemistry,cyp3a4_9plj,gen,ccd,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_1m13,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_1nrl,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_2o9i,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_2qnv,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_3hvl,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_3r8d,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_4ny9,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_4s0t,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_4x1f,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_4xhd,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_5a86,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_5x0r,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_6bns,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_6dup,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_6hj2,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_6hty,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_6nx1,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_6p2b,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_6s41,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_6tfi,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_6xp9,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_7ax9,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_7axa,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_7axb,smiles,gen,1,0,worsened
+PXR,OBv0,chemistry only,pxr_7axc,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_7axd,smiles,gen,0,1,improved
+PXR,OBv0,chemistry only,pxr_7axe,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_7axh,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_7n2a,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_7rio,smiles,gen,1,0,worsened
+PXR,OBv0,chemistry only,pxr_7riu,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_7riv,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_7yfk,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8cf9,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8ch8,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8e3n,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8eqz,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_8fpe,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8svo,smiles,gen,0,1,improved
+PXR,OBv0,chemistry only,pxr_8svq,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8svr,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8svs,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_8svt,smiles,gen,0,1,improved
+PXR,OBv0,chemistry only,pxr_8svx,smiles,gen,1,1,unchanged
+PXR,OBv0,chemistry only,pxr_8szv,smiles,gen,1,0,worsened
+PXR,OBv0,chemistry only,pxr_9beq,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_9fzi,smiles,gen,0,0,unchanged
+PXR,OBv0,chemistry only,pxr_9fzj,smiles,gen,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_1m13,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_1nrl,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_2o9i,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_2qnv,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_3hvl,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_3r8d,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_4ny9,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_4s0t,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_4x1f,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_4xhd,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_5a86,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_5x0r,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6bns,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6dup,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6hj2,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6hty,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6nx1,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6p2b,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6s41,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6tfi,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_6xp9,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7ax9,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7axa,gen,ccd,0,1,improved
+PXR,OBv0,names on top of chemistry,pxr_7axb,gen,ccd,0,1,improved
+PXR,OBv0,names on top of chemistry,pxr_7axc,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7axd,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7axe,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7axh,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7n2a,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7rio,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7riu,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7riv,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_7yfk,gen,ccd,0,1,improved
+PXR,OBv0,names on top of chemistry,pxr_8cf9,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_8ch8,gen,ccd,0,1,improved
+PXR,OBv0,names on top of chemistry,pxr_8e3n,gen,ccd,0,1,improved
+PXR,OBv0,names on top of chemistry,pxr_8eqz,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_8fpe,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_8svo,gen,ccd,1,0,worsened
+PXR,OBv0,names on top of chemistry,pxr_8svq,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_8svr,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_8svs,gen,ccd,0,1,improved
+PXR,OBv0,names on top of chemistry,pxr_8svt,gen,ccd,1,0,worsened
+PXR,OBv0,names on top of chemistry,pxr_8svx,gen,ccd,1,1,unchanged
+PXR,OBv0,names on top of chemistry,pxr_8szv,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_9beq,gen,ccd,0,0,unchanged
+PXR,OBv0,names on top of chemistry,pxr_9fzi,gen,ccd,0,1,improved
+PXR,OBv0,names on top of chemistry,pxr_9fzj,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_1w0f,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_1w0g,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_2j0d,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_3nxu,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_3tjs,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_3ua1,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4d6z,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4d75,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4d78,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4d7d,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4i4g,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4i4h,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4k9v,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4k9w,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4k9x,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_4ny4,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_5a1p,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_5a1r,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_5te8,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_5vc0,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_5vce,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_5vcg,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bcz,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bd5,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bd6,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bd7,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bd8,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bdh,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bdi,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bdk,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6bdm,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6da2,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6da3,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6da5,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6da8,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6daa,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6dab,smiles,gen,1,0,worsened
+CYP3A4,OBv0,chemistry only,cyp3a4_6dac,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6dag,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6daj,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6dal,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6ma6,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6ma7,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6ma8,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6oo9,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6ooa,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6oob,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6une,smiles,gen,0,1,improved
+CYP3A4,OBv0,chemistry only,cyp3a4_6ung,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6unh,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6uni,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6unj,smiles,gen,1,0,worsened
+CYP3A4,OBv0,chemistry only,cyp3a4_6unk,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6unl,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_6unm,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvh,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvi,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvj,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvk,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvm,smiles,gen,1,0,worsened
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvn,smiles,gen,0,1,improved
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvo,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvp,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvq,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7kvs,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7lxl,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7uf9,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7ufa,smiles,gen,0,1,improved
+CYP3A4,OBv0,chemistry only,cyp3a4_7ufb,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7ufc,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7ufd,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7ufe,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_7uff,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_8dyc,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_8spd,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9bbb,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9cor,smiles,gen,0,1,improved
+CYP3A4,OBv0,chemistry only,cyp3a4_9cos,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9cot,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9cou,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9cov,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9cow,smiles,gen,1,1,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9cox,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9coy,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,chemistry only,cyp3a4_9plj,smiles,gen,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_1w0f,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_1w0g,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_2j0d,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_3nxu,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_3tjs,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_3ua1,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4d6z,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4d75,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4d78,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4d7d,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4i4g,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4i4h,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4k9v,gen,ccd,0,1,improved
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4k9w,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4k9x,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_4ny4,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_5a1p,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_5a1r,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_5te8,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_5vc0,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_5vce,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_5vcg,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bcz,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bd5,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bd6,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bd7,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bd8,gen,ccd,1,0,worsened
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bdh,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bdi,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bdk,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6bdm,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6da2,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6da3,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6da5,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6da8,gen,ccd,0,1,improved
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6daa,gen,ccd,0,1,improved
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6dab,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6dac,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6dag,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6daj,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6dal,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6ma6,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6ma7,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6ma8,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6oo9,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6ooa,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6oob,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6une,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6ung,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6unh,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6uni,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6unj,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6unk,gen,ccd,0,1,improved
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6unl,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_6unm,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvh,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvi,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvj,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvk,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvm,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvn,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvo,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvp,gen,ccd,0,1,improved
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvq,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7kvs,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7lxl,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7uf9,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7ufa,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7ufb,gen,ccd,0,1,improved
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7ufc,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7ufd,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7ufe,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_7uff,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_8dyc,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_8spd,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9bbb,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9cor,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9cos,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9cot,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9cou,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9cov,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9cow,gen,ccd,1,1,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9cox,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9coy,gen,ccd,0,0,unchanged
+CYP3A4,OBv0,names on top of chemistry,cyp3a4_9plj,gen,ccd,0,0,unchanged
