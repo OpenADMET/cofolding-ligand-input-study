@@ -21,16 +21,12 @@ dates = pd.read_csv(C.DATA / "pdb_pxr_cyp3a4_release_dates.csv").set_index("pdb"
 
 # Figure 3: structures every model ran in all three arms at seed 42 (same rule as the Figure 3 notebook)
 ps = pd.read_csv(C.DATA / "names_effect_per_structure.csv")
-poses = pd.read_csv(C.DATA / "pxr_cyp3a4_pose_rmsds.csv.gz")
 fig3 = {}
 for tgt, key in (("PXR", "pxr"), ("CYP3A4", "cyp3a4")):
     sets = []
-    for m in ("Boltz-2", "OF3 p2", "OBv0"):
+    for m in ("Boltz-2", "OF3 p2", "OBv0", "AlphaFold3"):
         s = ps[(ps.model == m) & (ps.target == tgt)]
         sets.append(set(s[s.step == "chemistry only"].structure) & set(s[s.step == "names on top of chemistry"].structure))
-    a = poses[(poses.model == "af3") & (poses.status == "ok") & (poses.target == key) & (poses.seed == 42)]
-    best = a.groupby(["input", "structure"]).ligand_rmsd.min().unstack("input")[["smiles", "ccd_genericnames", "ccd"]].dropna()
-    sets.append(set(best.index))
     fig3[key] = set.intersection(*sets)
 assert (len(fig3["pxr"]), len(fig3["cyp3a4"])) == (48, 85), {k: len(v) for k, v in fig3.items()}
 
