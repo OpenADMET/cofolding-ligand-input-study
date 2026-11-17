@@ -32,8 +32,8 @@ _ARMS = [("af3", "smiles"), ("af3", "ccd"), ("af3", "ccd_genericnames"), ("boltz
 def load_poses():
     """One row per (model, target, input, seed, structure): the lowest ligand RMSD over the 5 samples, on the common set
     of structures (49 PXR, 85 CYP3A4) that every model and input produced poses for on all 5 seeds. Columns `ok`
-    (RMSD < 2 A), `deposit`, `release`."""
-    d = pd.read_csv(DATA / "matrix_poses.csv.gz")
+    (RMSD < 2 A), `release`."""
+    d = pd.read_csv(DATA / "pxr_cyp3a4_pose_rmsds.csv.gz")
     d = d[d.target.isin(["pxr", "cyp3a4"]) & d.input.isin(["smiles", "ccd", "ccd_genericnames"])]
     b = d.groupby(["model", "target", "input", "seed", "structure"]).ligand_rmsd.min().reset_index()
     keep = None
@@ -44,8 +44,8 @@ def load_poses():
     b = b[[(t, s) in keep for t, s in zip(b.target, b.structure)]].copy()
     b["ok"] = b.ligand_rmsd < 2
     pdb = b.structure.str.split("_").str[1].str.upper()
-    dates = pd.read_csv(DATA / "matrix_dates.csv", parse_dates=["deposit", "release"]).set_index("pdb")
-    b["deposit"], b["release"] = pdb.map(dates.deposit), pdb.map(dates.release)
+    dates = pd.read_csv(DATA / "pdb_pxr_cyp3a4_release_dates.csv", parse_dates=["release"]).set_index("pdb")
+    b["release"] = pdb.map(dates.release)
     return b
 
 
@@ -54,7 +54,7 @@ def wide(b, model, target=None):
     x = b[(b.model == model) & b.input.isin(["smiles", "ccd"])]
     if target:
         x = x[x.target == target]
-    return x.pivot_table(index=["target", "structure", "deposit", "release"], columns=["input", "seed"], values="ok")
+    return x.pivot_table(index=["target", "structure", "release"], columns=["input", "seed"], values="ok")
 
 
 def pair_stats(x):
@@ -71,10 +71,10 @@ def bh(pvalues):
 
 
 def side_mask(x, model, side):
-    """Rows of a `wide` table released before (deposited AND released on/before the cutoff) or after the model's cutoff."""
+    """Rows of a `wide` table released on/before the model's training cutoff (so it could have been seen in training) or after it."""
     c = CUTOFF[model]
-    dep, rel = x.index.get_level_values("deposit"), x.index.get_level_values("release")
-    return np.asarray((dep <= c) & (rel <= c)) if side == "before" else np.asarray(rel > c)
+    rel = x.index.get_level_values("release")
+    return np.asarray(rel <= c) if side == "before" else np.asarray(rel > c)
 
 
 def grouped_bars(ax, rows, title, subtitle, xlabel="success: best of 5 within 2 Å (%)"):

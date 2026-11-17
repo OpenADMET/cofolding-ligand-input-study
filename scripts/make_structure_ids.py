@@ -2,7 +2,7 @@
 
     python scripts/make_structure_ids.py        (run from anywhere; needs only the CSVs in data/)
 
-Columns: set, pdb_id, deposit_date, release_date, ligand_ccd (random sets only), figures.
+Columns: set, pdb_id, release_date, ligand_ccd (random sets only), figures.
   pxr / cyp3a4   the common sets (49 + 85): every model and input produced poses on all five seeds (Figs 1, 4)
                  "3" is added for those also in Figure 3 (shared by all four models in all three arms, seed 42)
   random_before / random_after   the 50 + 50 random complexes in Figure 5
@@ -17,11 +17,11 @@ import common as C
 
 pdb = lambda s: s.split("_")[1].upper()
 B = C.load_poses()
-dates = pd.read_csv(C.DATA / "matrix_dates.csv").set_index("pdb")
+dates = pd.read_csv(C.DATA / "pdb_pxr_cyp3a4_release_dates.csv").set_index("pdb")
 
 # Figure 3: structures every model ran in all three arms at seed 42 (same rule as the Figure 3 notebook)
 ps = pd.read_csv(C.DATA / "names_effect_per_structure.csv")
-poses = pd.read_csv(C.DATA / "matrix_poses.csv.gz")
+poses = pd.read_csv(C.DATA / "pxr_cyp3a4_pose_rmsds.csv.gz")
 fig3 = {}
 for tgt, key in (("PXR", "pxr"), ("CYP3A4", "cyp3a4")):
     sets = []
@@ -38,7 +38,7 @@ rows = []
 for t in ("pxr", "cyp3a4"):
     for s in sorted(B[B.target == t].structure.unique()):
         p = pdb(s)
-        rows.append(dict(set=t, pdb_id=p, deposit_date=dates.loc[p, "deposit"], release_date=dates.loc[p, "release"],
+        rows.append(dict(set=t, pdb_id=p, release_date=dates.loc[p, "release"],
                          ligand_ccd="", figures="1,3,4" if s in fig3[t] else "1,4"))
 
 info = pd.read_csv(C.DATA / "random_complexes_info.csv").set_index("pdb_id")
@@ -46,7 +46,7 @@ for side in ("before", "after"):
     ids = sorted(pd.read_csv(C.DATA / f"random_complexes_{side}_cutoff.csv").pdb_id.unique())
     assert len(ids) == 50
     for p in ids:
-        rows.append(dict(set=f"random_{side}", pdb_id=p, deposit_date=info.loc[p, "deposit_date"], release_date=info.loc[p, "release_date"],
+        rows.append(dict(set=f"random_{side}", pdb_id=p, release_date=info.loc[p, "release_date"],
                          ligand_ccd=info.loc[p, "ligand_ccd"], figures="5"))
 
 out = pd.DataFrame(rows)
