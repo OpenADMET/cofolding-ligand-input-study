@@ -1,0 +1,13 @@
+name: cofolding-ligand-input-study
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - rdkit      # figure 2 only
+  - biotite    # figure 2 only
+  - jupyter
+  - nbconvert
