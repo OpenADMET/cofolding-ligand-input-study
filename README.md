@@ -18,23 +18,16 @@ One notebook per figure in the post. Each reads from `data/`, prints the table b
 
 The regenerated PNGs in `figures/` are identical to the ones in the post.
 
-## Run it
-
-```bash
-mamba env create -f environment.yml
-mamba activate cofolding-ligand-input-study
-scripts/run_all.sh          # or open any notebook in notebooks/ and run it top to bottom
-```
-
 ## Layout
 
 ```
-data/          processed inputs and structure_ids.csv (see data/README.md)
-structures/    the two files Figure 2 needs
-src/common.py  data loading, the two statistics, bar-chart style (imported by the notebooks)
-notebooks/     one notebook per figure
-figures/       output PNGs
-scripts/       run_all.sh, make_structure_ids.py
+data/              processed inputs and structure_ids.csv (see data/README.md)
+structures/        the two files Figure 2 needs
+src/common.py      data loading, the two statistics, bar-chart style (imported by the notebooks)
+notebooks/         one notebook per figure
+figures/           output PNGs
+scripts/           make_structure_ids.py, add_af3_to_names_effect.py (how two of the data tables were built)
+environment.yml    packages the notebooks use
 ```
 
 ## Definitions
