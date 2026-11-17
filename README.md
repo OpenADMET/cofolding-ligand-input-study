@@ -41,9 +41,9 @@ environment.yml    packages the notebooks use
 
 ## Not included
 
-The predicted structures (several GB per model, input and target) and the scripts that scored them are not in this repo; they live on MSKCC infrastructure. The processed tables in `data/` are what every figure is computed from, and `data/structure_ids.csv` lists every PDB entry involved so the experimental structures can be fetched from the PDB.
+The predicted structures (several GB per model, input and target) and the scripts that scored them are not in this repo. The processed tables in `data/` are what every figure is computed from, and `data/structure_ids.csv` lists every PDB entry involved so the experimental structures can be fetched from the PDB.
 
-If you would like the actual predictions, get in touch with the authors and we will share them.
+If you would like the actual predictions, we will happily share them.
 
 ## License
 
